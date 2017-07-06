@@ -1,0 +1,7 @@
+
+begin
+    -- Change the default Oracle Express port from 8080 to 9090.
+    dbms_xdb.sethttpport('9090');
+end;
+/
+quit;
